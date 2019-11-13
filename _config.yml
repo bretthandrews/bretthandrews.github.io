@@ -83,11 +83,11 @@ author:
   name             : "Brett H. Andrews"
   avatar           : "profile.png"
   bio              : "Astrophysics Research Professor at Pitt"
-  location         :
+  location         : "304 Allen Hall"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "andrewsb [at] pitt [dot] edu"
+  email            : "andrewsb@pitt.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
