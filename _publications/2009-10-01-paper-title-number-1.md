@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Assessing Radiation Pressure as a Feedback Mechanism in Star-forming Galaxies"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/andrews-thompson-2011
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2011
+venue: 'ApJ'
+paperurl: 'https://ui.adsabs.harvard.edu/abs/2011ApJ...727...97A/abstract'
+citation: 'Andrews, B. H. & Thompson, T. A. 2011, ApJ, 727, 97.'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
