@@ -9,7 +9,7 @@ paperurl: 'https://ui.adsabs.harvard.edu/abs/2011ApJ...727...97A'
 citation: 'Andrews, B. H. &amp; Thompson, T. A. 2011, ApJ, 727, 97.'
 ---
 
-<a href='https://ui.adsabs.harvard.edu/abs/2011ApJ...727...97A'>Download paper here</a>
+<a href='https://ui.adsabs.harvard.edu/abs/2011ApJ...727...97A'>ADS</a>
 
 Radiation Pressure!
 
