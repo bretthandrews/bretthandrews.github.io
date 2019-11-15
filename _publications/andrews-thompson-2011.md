@@ -1,7 +1,7 @@
 ---
 title: "Assessing Radiation Pressure as a Feedback Mechanism in Star-forming Galaxies"
 collection: publications
-permalink: /publication/andrews-thompson-2011
+permalink: /publications/andrews-thompson-2011
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2011
 venue: 'ApJ'
