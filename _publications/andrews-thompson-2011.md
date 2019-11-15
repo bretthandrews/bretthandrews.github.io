@@ -3,7 +3,7 @@ title: "Assessing Radiation Pressure as a Feedback Mechanism in Star-forming Gal
 collection: publications
 permalink: /publications/andrews-thompson-2011
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2011
+date: 2011-02-01
 venue: 'ApJ'
 paperurl: 'https://ui.adsabs.harvard.edu/abs/2011ApJ...727...97A/abstract'
 citation: 'Andrews, B. H. & Thompson, T. A. 2011, ApJ, 727, 97.'
