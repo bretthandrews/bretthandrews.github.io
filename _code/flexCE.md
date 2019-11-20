@@ -2,14 +2,14 @@
 title: "flexCE"
 collection: code
 permalink: /code/flexCE
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+excerpt: 'A flexible galactic chemical evolution model'
+date: 2017-02-01
+venue: 'github'
 paperurl: 'http://bretthandrews.github.io/flexce/'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Andrews, B. H., et al., 2017, ApJ, 835, 224.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[GitHub repo](https://github.com/bretthandrews/flexce)
+[docs](https://bretthandrews.github.io/flexCE)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: [Andrews, B. H., et al., 2017, ApJ, 835, 224.](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..224A)
