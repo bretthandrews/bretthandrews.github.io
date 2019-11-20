@@ -10,6 +10,7 @@ citation: 'Andrews, B. H., et al., 2017, ApJ, 835, 224.'
 ---
 
 [GitHub repo](https://github.com/bretthandrews/flexce)
+
 [docs](https://bretthandrews.github.io/flexCE)
 
 Recommended citation: [Andrews, B. H., et al., 2017, ApJ, 835, 224.](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..224A)
