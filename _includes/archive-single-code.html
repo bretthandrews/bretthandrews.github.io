@@ -39,7 +39,6 @@
     {% endif %}
 
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
 
 
     {% if post.excerpt and site.read_more != 'enabled' %}
@@ -48,8 +47,13 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    {% if post.repourl %}<p><a href="{{ post.repourl }}"><u>Code</u></a></p>{% endif %}
-    {% if post.docsurl %}<p><a href="{{ post.docsurl }}"><u>Docs</u></a></p>{% endif %}
+    {% if post.repourl and post.docsurl %}
+    <p><a href="{{ post.repourl }}"><u>Code</u></a> | <a href="{{ post.docsurl }}"><u>Docs</u></a></p>
+    {% elsif post.repourl%}
+    <p><a href="{{ post.repourl }}"><u>Code</u></a></p>
+    {% elsif post.docsurl%}
+    <p><a href="{{ post.docsurl }}"><u>Docs</u></a></p>
+    {% endif %}
 
   </article>
 </div>
