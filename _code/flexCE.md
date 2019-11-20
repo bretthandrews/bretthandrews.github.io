@@ -2,7 +2,7 @@
 title: "flexCE"
 collection: code
 permalink: /code/flexCE
-excerpt: 'A flexible galactic chemical evolution model'
+excerpt: 'A flexible Chemical Evolution model'
 date: 2017-02-01
 venue: 'github'
 repourl: 'https://github.com/bretthandrews/flexce'
