@@ -9,5 +9,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.code reversed %}
-  {% include archive-single.html %}
+  {% include archive-single-code.html %}
 {% endfor %}
