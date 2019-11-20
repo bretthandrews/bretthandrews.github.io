@@ -5,7 +5,8 @@ permalink: /code/flexCE
 excerpt: 'A flexible galactic chemical evolution model'
 date: 2017-02-01
 venue: 'github'
-paperurl: 'http://bretthandrews.github.io/flexce/'
+repourl: 'https://github.com/bretthandrews/flexce'
+docsurl: 'http://bretthandrews.github.io/flexce'
 citation: 'Andrews, B. H., et al., 2017, ApJ, 835, 224.'
 ---
 
