@@ -3,7 +3,7 @@ title: "Marvin"
 collection: code
 permalink: /code/marvin
 excerpt: 'A flexible Chemical Evolution model'
-date: 2017-02-01
+date: 2018-12-07
 webappurl: 'https://dr15.sdss.org/marvin/'
 repourl: 'https://github.com/sdss/marvin'
 docsurl: 'https://sdss-marvin.readthedocs.io/en/latest/'
