@@ -9,7 +9,7 @@ docsurl: 'http://bretthandrews.github.io/flexce'
 citation: 'Andrews, B. H., et al., 2017, ApJ, 835, 224.'
 ---
 
-[Code](https://github.com/bretthandrews/flexce) &#124; [Docs](https://bretthandrews.github.io/flexCE)
+[Code](https://github.com/bretthandrews/flexce) \| [Docs](https://bretthandrews.github.io/flexCE)
 
 Longer description of flexCE
 
