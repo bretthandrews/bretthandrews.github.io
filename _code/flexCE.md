@@ -2,7 +2,7 @@
 title: "flexCE"
 collection: code
 permalink: /code/flexCE
-excerpt: 'flexible Chemical Evolution model'
+excerpt: 'A flexible Chemical Evolution model'
 date: 2017-02-01
 repourl: 'https://github.com/bretthandrews/flexce'
 docsurl: 'http://bretthandrews.github.io/flexce'
