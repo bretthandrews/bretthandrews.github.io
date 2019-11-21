@@ -49,7 +49,7 @@
 
     {% if post.webappurl and post.repourl and post.docsurl %}
     <p><a href="{{ post.webappurl }}"><u>Webapp</u></a> | <a href="{{ post.repourl }}"><u>Code</u></a> | <a href="{{ post.docsurl }}"><u>Docs</u></a></p>
-    {% if post.repourl and post.docsurl %}
+    {% elsif post.repourl and post.docsurl %}
     <p><a href="{{ post.repourl }}"><u>Code</u></a> | <a href="{{ post.docsurl }}"><u>Docs</u></a></p>
     {% elsif post.webappurl%}
     <p><a href="{{ post.webappurl }}"><u>Webapp</u></a></p>

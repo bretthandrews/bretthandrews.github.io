@@ -214,7 +214,7 @@ defaults:
       path: ""
       type: code
     values:
-      layout: talk
+      layout: code
       author_profile: true
       share: true
       comments: true
