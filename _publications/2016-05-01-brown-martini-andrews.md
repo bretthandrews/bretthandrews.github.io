@@ -6,6 +6,6 @@ excerpt: 'We use direct method metallicities of stacked SDSS galaxies to recalib
 date: 2016-05-01
 venue: 'MNRAS'
 paperurl: 'https://ui.adsabs.harvard.edu/abs/2016MNRAS.458.1529B'
-citation: 'Brown, J. S., Martini, P., &amp; Andrews, B. H. 2016, MNRAS, 458, 1529.'
+citation: 'Brown, J. S., Martini, P., &amp; <b>Andrews, B. H.</b> 2016, MNRAS, 458, 1529.'
 ---
 We use direct method metallicities of stacked SDSS galaxies to recalibrate strong line metallicity diagnostics.

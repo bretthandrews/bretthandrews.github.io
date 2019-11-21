@@ -6,6 +6,6 @@ excerpt: 'The direct method mass-metallicity relation has a steeper slope, a low
 date: 2013-03-01
 venue: 'ApJ'
 paperurl: 'https://ui.adsabs.harvard.edu/abs/2013ApJ...765..140A'
-citation: 'Andrews, B. H. &amp; Martini, P. 2013, ApJ, 765, 140.'
+citation: '<b>Andrews, B. H.</b> &amp; Martini, P. 2013, ApJ, 765, 140.'
 ---
 The direct method mass-metallicity relation has a steeper slope, a lower turnover mass, and a factor of 2-3 greater dependence on SFR than strong line mass-metallicity relations.
