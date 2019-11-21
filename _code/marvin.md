@@ -2,7 +2,7 @@
 title: "Marvin"
 collection: code
 permalink: /code/marvin
-excerpt: 'A flexible Chemical Evolution model'
+excerpt: 'Data access, exploration, analysis, and visualization toolkit for the SDSS-IV MaNGA survey'
 date: 2018-12-07
 webappurl: 'https://dr15.sdss.org/marvin/'
 repourl: 'https://github.com/sdss/marvin'
