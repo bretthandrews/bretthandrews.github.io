@@ -47,8 +47,12 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
+    {% if post.webappurl and post.repourl and post.docsurl %}
+    <p><a href="{{ post.webappurl }}"><u>Webapp</u></a> | <a href="{{ post.repourl }}"><u>Code</u></a> | <a href="{{ post.docsurl }}"><u>Docs</u></a></p>
     {% if post.repourl and post.docsurl %}
     <p><a href="{{ post.repourl }}"><u>Code</u></a> | <a href="{{ post.docsurl }}"><u>Docs</u></a></p>
+    {% elsif post.webappurl%}
+    <p><a href="{{ post.webappurl }}"><u>Webapp</u></a></p>
     {% elsif post.repourl%}
     <p><a href="{{ post.repourl }}"><u>Code</u></a></p>
     {% elsif post.docsurl%}
