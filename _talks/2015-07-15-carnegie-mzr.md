@@ -3,7 +3,7 @@ title: "The Mass-Metallicity Relation in SDSS Using Electron Temperature Measure
 collection: talks
 type: "Talk"
 permalink: /talks/2015-07-15-carnegie-mzr
-venue: "Carnegie Observatories"
+venue: "Understanding Nebular Emission in High-Redshift Galaxies, The Carnegie Observatories"
 date: 2015-07-15
 location: "Pasadena, CA, USA"
 ---

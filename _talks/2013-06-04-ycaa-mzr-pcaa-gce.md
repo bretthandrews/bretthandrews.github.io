@@ -3,7 +3,7 @@ title: "Decoding Galactic Chemical Evolution with Gas-phase and Stellar Abundanc
 collection: talks
 type: "Talk"
 permalink: /talks/2013-06-04-ycaa-mzr-pcaa-gce
-venue: "Yale Center for Astronomy and Astrophysics"
+venue: "Yale Center for Astronomy and Astrophysics, Yale University"
 date: 2013-06-04
 location: "New Haven, CT, USA"
 ---

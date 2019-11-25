@@ -3,7 +3,7 @@ title: "Streamlining MaNGA data with Marvin"
 collection: talks
 type: "Talk"
 permalink: /talks/2017-01-20-pitt-marvin
-venue: "University of Pittsburgh"
+venue: "AstroLunch, University of Pittsburgh"
 date: 2017-01-20
 location: "Pittsburgh, PA, USA"
 ---
