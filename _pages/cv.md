@@ -56,7 +56,7 @@ Graduate
 
 Undergraduate
 -------------
-* Zach Lewis
+* *Zach Lewis*
     * University of Pittsburgh, (2019 - Present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
 * Ian Cooper
