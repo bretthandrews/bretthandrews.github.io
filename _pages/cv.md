@@ -23,15 +23,6 @@ Education
 * M.S. in Astronomy, The Ohio State University, 2011
 * B.S. in Astronomy & Physics, Yale University, 2008
 
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -47,6 +38,7 @@ Talks
 
 Mentoring
 ======
+
 Graduate
 --------
 * 2018 – Present : B. Dey (University of Pittsburgh); Estimating Photometric Redshifts with Neural Networks
