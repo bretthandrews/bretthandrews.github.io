@@ -41,18 +41,24 @@ Mentoring
 
 Graduate
 --------
-* 2019 - Present: Troy Raen (University of Pittsburgh)
+* Troy Raen
+    * University of Pittsburgh (2019 - Present)
     * Classification of Variable Objects
-* 2018 – Present : Biprateep Dey (University of Pittsburgh)
+* Biprateep Dey
+    * University of Pittsburgh (2018 – Present)
     * Estimating Photometric Redshifts with Neural Networks
-* 2018 – Present : Catherine Fielder (University of Pittsburgh)
+* Catherine Fielder
+    * University of Pittsburgh (2018 – Present)
     * Selecting Milky Way Analog Galaxies
-* 2017 : Quanbin (Eric) Ma (Carnegie Mellon University; Machine Learning Department)
+* Quanbin (Eric) Ma
+    * Carnegie Mellon University, Machine Learning Department (2017)
     * Deep Dimensionality Reduction of MaNGA Data
 
 Undergraduate
 -------------
-* 2019 – Present: Zach Lewis (University of Pittsburgh)
+* Zach Lewis
+    * University of Pittsburgh, (2019 - Present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
-* 2016 : Ian Cooper (University of Pittsburgh)
+* Ian Cooper
+    * University of Pittsburgh (2016)
     * SNIa hosts in MaNGA
