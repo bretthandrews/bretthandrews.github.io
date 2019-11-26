@@ -11,17 +11,17 @@ redirect_from:
 
 Academic Appointments
 ======
-* 2017 − present : Research Assistant Professor, Department of Physics and Astronomy, University of Pittsburgh
-* 2014 − 2017 : Postdoctoral Associate, Department of Physics and Astronomy, University of Pittsburgh
-* 2011 − 2014 : Graduate Research Assistant, Department of Astronomy, The Ohio State University
-* 2008 − 2011 : Graduate Teaching Associate, Department of Astronomy, The Ohio State University
-* 2007 − 2008 : Undergraduate Research Assistant, Department of Astronomy, Yale University
+* **Research Assistant Professor**, Department of Physics and Astronomy, University of Pittsburgh (2017-present)
+* **Postdoctoral Associate**, Department of Physics and Astronomy, University of Pittsburgh (2014 - 2017)
+* **Graduate Research Assistant**, Department of Astronomy, The Ohio State University (2011-2014)
+* **Graduate Teaching Associate**, Department of Astronomy, The Ohio State University (2008-2011)
+* **Undergraduate Research Assistant**, Department of Astronomy, Yale University (2007-2008)
 
 Education
 ======
-* Ph.D. in Astronomy, The Ohio State University, 2014
-* M.S. in Astronomy, The Ohio State University, 2011
-* B.S. in Astronomy & Physics, Yale University, 2008
+* **Ph.D.** in Astronomy, The Ohio State University, 2014
+* **M.S.** in Astronomy, The Ohio State University, 2011
+* **B.S.** in Astronomy & Physics, Yale University, 2008
 
 Publications
 ======
@@ -41,24 +41,24 @@ Mentoring
 
 Graduate
 --------
-* Troy Raen
-    * University of Pittsburgh (2019 - Present)
-    * Classification of Variable Objects
-* Biprateep Dey
-    * University of Pittsburgh (2018 – Present)
+* **Biprateep Dey**
+    * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Neural Networks
-* Catherine Fielder
-    * University of Pittsburgh (2018 – Present)
+* **Troy Raen**
+    * University of Pittsburgh (2019 - present)
+    * Classification of Variable Objects
+* **Catherine Fielder**
+    * University of Pittsburgh (2018 - present)
     * Selecting Milky Way Analog Galaxies
-* Quanbin (Eric) Ma
+* **Quanbin (Eric) Ma**
     * Carnegie Mellon University, Machine Learning Department (2017)
     * Deep Dimensionality Reduction of MaNGA Data
 
 Undergraduate
 -------------
-* *Zach Lewis*
-    * University of Pittsburgh, (2019 - Present)
+* **Zach Lewis**
+    * University of Pittsburgh, (2019 - present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
-* Ian Cooper
+* **Ian Cooper**
     * University of Pittsburgh (2016)
     * SNIa hosts in MaNGA
