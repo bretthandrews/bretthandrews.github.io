@@ -11,17 +11,17 @@ redirect_from:
 
 Academic Appointments
 ======
-* **Research Assistant Professor**, Department of Physics and Astronomy, University of Pittsburgh (2017-present)
+* **Research Assistant Professor**, Department of Physics and Astronomy, University of Pittsburgh (2017 - present)
 * **Postdoctoral Associate**, Department of Physics and Astronomy, University of Pittsburgh (2014 - 2017)
-* **Graduate Research Assistant**, Department of Astronomy, The Ohio State University (2011-2014)
-* **Graduate Teaching Associate**, Department of Astronomy, The Ohio State University (2008-2011)
-* **Undergraduate Research Assistant**, Department of Astronomy, Yale University (2007-2008)
+* **Graduate Research Assistant**, Department of Astronomy, The Ohio State University (2011 - 2014)
+* **Graduate Teaching Associate**, Department of Astronomy, The Ohio State University (2008 - 2011)
+* **Undergraduate Research Assistant**, Department of Astronomy, Yale University (2007 - 2008)
 
 Education
 ======
-* **Ph.D.** in Astronomy, The Ohio State University, 2014
-* **M.S.** in Astronomy, The Ohio State University, 2011
-* **B.S.** in Astronomy & Physics, Yale University, 2008
+* **Ph.D.** in Astronomy, The Ohio State University (2014)
+* **M.S.** in Astronomy, The Ohio State University (2011)
+* **B.S.** in Astronomy & Physics, Yale University (2008)
 
 Publications
 ======
