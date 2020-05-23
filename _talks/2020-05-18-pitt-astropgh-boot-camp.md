@@ -4,7 +4,7 @@ collection: talks
 type: "Tutorial"
 permalink: /talks/2020-05-18-pitt-astropgh-boot-camp
 venue: "University of Pittsburgh"
-date: 2020-05-18 -- 2020-05-21
+date: 2020-05-18
 location: "Pittsburgh, PA, USA"
 ---
 
@@ -12,4 +12,6 @@ location: "Pittsburgh, PA, USA"
 
 [GitHub](https://github.com/astropgh/astropgh-boot-camp-2020)
 
-Research Boot Camp for summer undergraduate students and early PhD students.
+Research Boot Camp for summer undergraduate students and early PhD students covering Python, Numpy, Matplotlib, Astropy, basic statistics, Git, GitHub, and Altair.
+
+May 18-21, 2020.
