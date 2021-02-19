@@ -38,7 +38,7 @@ Mentoring
 
 Graduate
 --------
-* **Biprateep Dey**
+* **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Neural Networks
 * **Troy Raen**
