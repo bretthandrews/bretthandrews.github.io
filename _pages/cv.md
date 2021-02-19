@@ -54,8 +54,13 @@ Graduate
 Undergraduate
 -------------
 * **Zach Lewis**
-    * University of Pittsburgh, (2019 - present)
+    * University of Pittsburgh (2019 - present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
 * **Ian Cooper**
     * University of Pittsburgh (2016)
     * SNIa hosts in MaNGA
+
+High School
+-----------
+* **Mariah Jones**
+    * Baldwin High School (2020 - present)
