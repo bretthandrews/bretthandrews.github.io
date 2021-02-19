@@ -44,7 +44,7 @@ Graduate
 * **Troy Raen**
     * University of Pittsburgh (2019 - present)
     * Classification of Variable Objects
-* **Catherine Fielder**
+* **[Catherine Fielder](https://cfielder.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Selecting Milky Way Analog Galaxies
 * **Quanbin (Eric) Ma**
@@ -53,7 +53,7 @@ Graduate
 
 Undergraduate
 -------------
-* **Zach Lewis**
+* **[Zach Lewis](https://zachjlewis.github.io/)**
     * University of Pittsburgh (2019 - present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
 * **Ian Cooper**
