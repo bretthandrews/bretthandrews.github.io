@@ -31,36 +31,3 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-
-
-Mentoring
-======
-
-Graduate
---------
-* **[Biprateep Dey](https://biprateep.github.io/)**
-    * University of Pittsburgh (2018 - present)
-    * Estimating Photometric Redshifts with Neural Networks
-* **Troy Raen**
-    * University of Pittsburgh (2019 - present)
-    * Classification of Variable Objects
-* **[Catherine Fielder](https://cfielder.github.io/)**
-    * University of Pittsburgh (2018 - present)
-    * Selecting Milky Way Analog Galaxies
-* **Quanbin (Eric) Ma**
-    * Carnegie Mellon University, Machine Learning Department (2017)
-    * Deep Dimensionality Reduction of MaNGA Data
-
-Undergraduate
--------------
-* **[Zach Lewis](https://zachjlewis.github.io/)**
-    * University of Pittsburgh (2019 - present)
-    * The Mass-Metallicity Relation at Intermediate Redshifts
-* **Ian Cooper**
-    * University of Pittsburgh (2016)
-    * SNIa hosts in MaNGA
-
-High School
------------
-* **Mariah Jones**
-    * Baldwin High School (2020 - present)
