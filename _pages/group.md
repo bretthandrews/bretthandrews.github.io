@@ -27,7 +27,7 @@ Graduate
     * Constraining the Milky Way's Ultraviolet-to-Infrared SED with Gaussian Process Regression
 * **Quanbin (Eric) Ma**
     * Carnegie Mellon University, Machine Learning Department (2017)
-    * Deep Dimensionality Reduction of MaNGA Data
+    * [Dimensionality Reduction of Astronomical Spectroscopic Datausing Autoencoders](https://www.ml.cmu.edu/research/dap-papers/F17/dap-ma-quanbin.pdf)
     * _Next Position_: Software Engineer at Facebook
 
 Undergraduate
