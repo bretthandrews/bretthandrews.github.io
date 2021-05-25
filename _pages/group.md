@@ -48,5 +48,5 @@ High School
     * _Press_:
         * [Trib Live](https://triblive.com/local/south-hills/baldwin-senior-collaborates-on-astrophysics-and-metallicity-research-at-pitt/) 2020-12-02 "Baldwin senior collaborates on astrophysics and metallicity research at Pitt"
         * [Pittsburgh Post-Gazette](https://www.post-gazette.com/news/19-neighbors/2021/02/27/19-Neighbors-Mariah-Jones-Baldwin-High-School-COVID-19/stories/202102260171) 2021-02-27 "Baldwin High School student goes from women's shelter to full ride scholarship for astrophysics"
-        * [Good Black News](https://goodblacknews.org/2021/05/22/mariah-jones-18-goes-from-womens-shelter-in-pittsburgh-to-full-ride-scholarship-for-astrophysics-at-vassar/) "Mariah Jones, 18, Goes from Women’s Shelter in Pittsburgh to Full Ride Scholarship for Astrophysics at Vassar"
+        * [Good Black News](https://goodblacknews.org/2021/05/22/mariah-jones-18-goes-from-womens-shelter-in-pittsburgh-to-full-ride-scholarship-for-astrophysics-at-vassar/) 2021-05-22 "Mariah Jones, 18, Goes from Women’s Shelter in Pittsburgh to Full Ride Scholarship for Astrophysics at Vassar"
     * _Next Position_: Undergraduate at Vassar College
