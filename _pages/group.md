@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 
-I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/)) and [Rachel Bezanson](https://rachelbezanson.github.io/)) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
+I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
 
 
 Students
