@@ -3,7 +3,7 @@ title: "Effective Plotting"
 collection: talks
 type: "Tutorial"
 permalink: /talks/2018-10-30-pitt-plotting
-venue: "Science 2018, University of Pittsburgh"
+venue: "AstroPGH Summer Seminar Series, University of Pittsburgh"
 date: 2018-10-30
 location: "Pittsburgh, PA, USA"
 ---
