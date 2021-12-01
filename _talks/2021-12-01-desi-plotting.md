@@ -8,6 +8,6 @@ date: 2021-12-01
 location: "Pittsburgh, PA, USA"
 ---
 
-[Slides](https://bretthandrews.github.io/files/talks/2021-07-07-pitt-plotting/2021-12-01-desi-plotting.html)
+[Slides](https://bretthandrews.github.io/files/talks/2021-12-01-desi-plotting/2021-12-01-desi-plotting.html)
 
 Communicate more clearly with well-designed plots.
