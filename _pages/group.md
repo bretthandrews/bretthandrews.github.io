@@ -19,9 +19,9 @@ Graduate
 * **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Deep Capsule Networks
-* **Troy Raen**
+* **[Troy Raen](https://troyraen.github.io/)**
     * University of Pittsburgh (2019 - present)
-    * Classification of Variable Objects with a Bayesian Belief Network
+    * Transients in the Event Streams of Large Astronomical Surveys
 * **[Catherine Fielder](https://cfielder.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Constraining the Milky Way's Ultraviolet-to-Infrared SED with Gaussian Process Regression
