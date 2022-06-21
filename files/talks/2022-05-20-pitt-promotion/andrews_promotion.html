@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Andrews 2022-05-20</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h4>Leveraging Statistics and Machine Learning for Probing Galaxy Evolution and Measuring Galaxy Distances</h4>
+					<p>Brett Andrews <br> <small>University of Pittsburgh</small></p>
+					<p><small>AstroLunch Seminar <br> 05.20.2022</small></p>
+				</section>
+
+                <section>
+                    <h3>Acknowledgements</h3>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col"></div>
+                    <div class="col">
+                        <img src="images/cat_fielder.jpg" height="200" width="200">
+                        <p><small>Cat Fielder</small></p>
+                    </div>
+                    <div class="col">
+                        <img src="images/biprateep.jpg" height="200" width="200">
+                        <p><small>Biprateep Dey</small></p>
+                    </div>
+                    <div class="col"></div>
+                    </div>
+
+                    <small><ul>
+                        <li>Zach Lewis, Katie Mack</li>
+                        <li>Troy Raen, Ashod Khederlarian, Yoki Hernandez</li>
+                        <li>Jeff Newman, Rachel Bezanson</li>
+                        <p></p>
+                        <li>NSF AST-2009251</li>
+                        <li>NASA ADAP 80NSSC19K0588</li>
+                    </ul></small>
+                </section>
+
+
+				<section>
+                    <h3>Overview</h3>
+                    <ol>
+                        <li class="fragment">Milky Way as a Rosetta Stone for understanding galaxy evolution</li>
+                        <li class="fragment">Deep Learning Photometric Redshifts</li>
+                        <li class="fragment">Correcting Photometric Redshift Systematics</li>
+                    </ol>
+				</section>
+
+    			<section>
+                    <h2>Milky Way as a Rosetta Stone for understanding galaxy evolution</h2>
+				</section>
+
+				<section>
+                    <h2>Galaxy Evolution</h2>
+                    <h4>Tracing A Galaxy's Formation History</h4>
+                    <ul>
+                        <li class="fragment">dark matter halo assembly history</li>
+                        <li class="fragment">merger history</li>
+                        <li class="fragment">star formation history</li>
+                        <li class="fragment">chemical enrichment history</li>
+                        <li class="fragment">supermassive black hole accretion history</li>
+                    </ul>
+				</section>
+
+				<section>
+                    <h4>Historical disconnect between Milky Way and extragalactic communities.</h4>
+
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <img src="images/ngc3351.png"  height="200" width="200">
+                        <p><small>NGC 3351<br>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+                    </div>
+                    <div class="col">
+                        <img src="images/mw_faceon.jpg"  height="200" width="200">
+                        <p><small>Milky Way (artist impression)<br><a href="https://www.eso.org/public/images/eso1339g/">NASA/JPL-Caltech/ESO/R. Hurt</a></small></p>
+                    </div>
+                    </div>
+                    <!-- <img src="images/ngc3351.png"  height="250" width="250">
+                    <img src="images/mw_faceon.jpg"  height="250" width="250"> -->
+                    <small><ul>
+                        <li class="fragment">Test methods used on external galaxies (e.g., SED-fitting) with unique Milky Way observational constraints (e.g., from resolved stellar populations).
+                        <li class="fragment">Provide tighter constraints for hydrodynamical models of MW-like galaxies to more accurately tune their feedback prescriptions.</p>
+                    </ul></small>
+                    <!-- <p><small>NGC 3351: Fielder, Newman, <b>Andrews</b>, et al. (2021)<br>Milky Way (artist impression): <a href="https://www.eso.org/public/images/eso1339g/">NASA/JPL-Caltech/ESO/R. Hurt</a></small></p> -->
+				</section>
+
+				<section>
+                    <h3>Milky Way: unique observations and simulations</h3>
+                    <ul>
+                        <li class="fragment">satellite populations (SDSS, DES)</li>
+                        <li class="fragment">properties for ~millions of stars across the Milky Way</li>
+                        <small><ul>
+                            <li class="fragment">6-D position-velocity data (Gaia)</li>
+                            <li class="fragment">10-20 element stellar abundances (APOGEE/APOGEE-2, GALAH, Gaia-ESO)</li>
+                            <li class="fragment">reconstruct the Milky Way star formation history w/ chemical evolution models</li>
+                        </ul></small>
+                        <li class="fragment">detailed hydrodynamical cosmological simulations<br><small>(EAGLE, FIRE, Auriga)</small>
+                    </ul>
+				</section>
+
+				<!-- <section>
+                    <h4>Our perspective of the Milky Way is different than for most external galaxies.</h4>
+					<p class="fragment" data-fragment-index="1">Our edge-on view of the Milky Way in the IR</p>
+                    <img class="fragment" data-fragment-index="2" src="images/dirbe_poster.jpg"  height="40" width="1000">
+					<p class="fragment" data-fragment-index="3">is obscured by thick dust clouds in the optical.</p>
+                    <img class="fragment" data-fragment-index="4" src="images/opt_poster.jpg"  height="40" width="1000" class="fragment">
+                    <p class="fragment" data-fragment-index="4"><small><a href="https://asd.gsfc.nasa.gov/archive/mwmw/mmw_images.html">Credit: NASA and A. Mellinger</a></small></p>
+				</section> -->
+
+
+                <section>
+                    <h4>Our perspective of the Milky Way is different than for most external galaxies.</h4>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <img src="images/2mass_allskyatlas.jpg" height="300" width="600">
+                        <p>Near-IR</p>
+                        <p><small>Credit: IPAC</small></p>
+                    </div>
+                    <div class="col">
+                        <span class"fragment fade-in">
+                        <img class="fragment" data-fragment-index="2" src="images/Gaia_s_sky_in_colour_g1024.jpg" height="300" width="600">
+                        <p class="fragment" data-fragment-index="2">Optical</p>
+                        <p class="fragment" data-fragment-index="2"><small>Credit: ESA, Gaia, DPC</a></small></p>
+                        </span>
+                    </div>
+                    </div>
+                </section>
+
+				<section>
+					<h3>What is the color of the Milky Way?</h3>
+				</section>
+
+				<section>
+                    <img src="images/mwa_selection_licquia2015.png"  height="350" width="350">
+                    <p><b>Milky Way Analogs</b>: similar Mstar and SFR</p>
+                    <p><small>Licquia, Newman, & Brinchmann (2015)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/licquia_optical_mstar.png"  height="350" width="350">
+                    <ul>
+                        <li class="fragment">Milky Way is in the optical Green Valley</li>
+                        <li class="fragment">Is MW transitioning from star-forming to quiescent?</li>
+                    </ul>
+                    <p><small>Licquia, Newman, & Brinchmann (2015)</small></p>
+				</section>
+
+				<section>
+					<h4>Estimate the Milky Way's UV-to-IR Spectral Energy Distribution (SED)</h4>
+                    <ul>
+                        <li class="fragment">SED: fundamental observable for external galaxies and bolometric luminosity.</li>
+                        <li class="fragment">Do the UV and IR indicate that the Milky Way is transitioning from star-forming to quiescent?</li>
+                    </ul>
+				</section>
+
+				<section>
+                    <img src="images/mwa_venn.png"  height="350" width="325">
+                    <ul>
+                        <li>GALEX-SDSS-WISE Legacy Catalog</li>
+                        <li class="fragment">Quickly run out of close analogs with 4+ parameters</li>
+                    </ul>
+					<!-- <h4 class="fragment">Curse of Dimensionality</h4>
+					<p class="fragment">Quickly run out of close analogs with 4+ parameters</p> -->
+                    <p><small>Boardman, Zasowski, Newman, <b>Andrews</b>, Fielder, et al. (2020)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/gpr_vs_mwa.png"  height="400" width="600">
+                    <h4>Solution: Go Big</h4>
+                    <small><p class="fragment">Use a broader galaxy sample and regress across it.</p></small>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+<!-- Guassian Processes -->
+
+				<section>
+                    <img src="images/gpr_noiseless_data.png"  height="300" width="600">
+                    <h4>Gaussian Process Regression</h4>
+                    <small><ul>
+                        <li class="fragment">Bayesian flexible non-parametric interpolation</li>
+                        <li class="fragment">Data constrains model predictions</li>
+                        <li class="fragment">Select kernel (covariance matrix) and optimize hyperparameters with training data</li>
+                    </ul></small>
+                    <p><small><a href='https://www.cs.toronto.edu/~rgrosse/courses/csc2541_2022/tutorials/tut05.pdf'>Credit: Roger Grosse</a></small></p>
+				</section>
+
+<!-- MW SED -->
+
+				<section>
+                    <img src="images/optical_mstar.png"  height="450" width="450">
+					<h4>The Milky Way is in the optical Green Valley...</h4>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/nuv_ssfr.png"  height="450" width="450">
+					<h4>...but the Milky Way is star-forming in the UV</h4>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+				<section>
+					<h4>What does the IR say?</h4>
+                    <small><ul>
+                        <li class="fragment">For all bands, we use K-corrections to convert from observed frame to rest-frame.</li>
+                        <li class="fragment"><b>Issue</b>: <code>KCORRECT</code> templates fail on WISE W4 (22 &#956;m).</li>
+                        <li class="fragment"><b>Solution</b>: Data-driven K-corrections.</li>
+                        <ul>
+                            <li class="fragment">Assume galaxies with similar rest-frame color in one band (e.g., g-r) have similar SEDs (e.g., Connolly et al. 1995).</li>
+                            <li class="fragment">Fit trend of similar galaxies with redshift to get K-corrections.</li>
+                            <li class="fragment">K-corrections extrapolate down to z=0.</li>
+    						<!-- <li class="fragment">Galaxies with similar intrinsic g-r color
+                                at different redshifts fall in similar locii in color-color
+                                space.</li> -->
+                        </ul>
+                    </ul></small>
+                    <p class="fragment"><small>Fielder, <b>Andrews</b>, Newman, et al. (in prep.)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/mir_color-color.png"  height="400" width="400">
+                    <h3 class="fragment" data-fragment-index="2">Milky Way is star-forming in IR!</h3>
+                    <p class="fragment" data-fragment-index="2"><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/optical_mstar.png"  height="310" width="310">
+                    <img src="images/nuv_ssfr.png"  height="310" width="310">
+                    <img src="images/mir_color-color.png"  height="310" width="310">
+                    <h3>Milky Way as a Red Spiral</h3>
+                    <small><ul>
+                        <li class="fragment">Massive star-forming galaxies are optically red due to large old stellar populations.</li>
+                        <li class="fragment">High mass end of the blue cloud overlaps with red sequence in the optical.</li>
+                        <li class="fragment">UV and IR are more sensitive to star formation.</li>
+                        <li class="fragment"><b>Milky Way is a star-forming galaxy and not
+                            transitioning to quiescence.</b></li>
+                    </ul></small>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+				<section>
+                    <img src="images/sed_brown.png"  height="400" width="600">
+					<h3>Milky Way UV-to-IR SED</h3>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+				<section>
+                    <h4>[Next] Measure the Milky Way's star formation history (SFH) with SED-fitting</h4>
+                    <small><ul>
+                        <!-- <li class="fragment">Perform SED-fitting to estimate the Milky Way's SFH</li> -->
+                        <li class="fragment"><b>Key technical challege</b>: Need to capture covariance between bands with multi-task Gaussian Process Regression</li>
+                    </ul></small>
+                    <img class="fragment" src="images/sed_ba.png"  height="280" width="410">
+                    <small><ol>
+                        <li class="fragment">Fit our Milky Way SED to estimate its SFH.</li>
+                        <li class="fragment">Compare to Milky Way SFH estimates from stellar abundance surveys and chemical evolution models.</li>
+                    </ol></small>
+                    <p class="fragment"><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+                <section>
+                    <h3>Other Galaxy Evolution Projects</h3>
+                </section>
+
+
+                <section>
+                    <img src="images/EHT_MW.jpg" height="350" width="350">
+                    <h4>Milky Way's Supermassive Black Hole</h4>
+                    <small><ul>
+                        <li class="fragment">The Milky Way's central supermassive black hole is currently dormant...</li>
+                        <li class="fragment">...but it must have built up its mass.</li>
+                    </ul></small>
+                    <p class="fragment"><small>Credit: EHT Collaboration</small></p>
+                </section>
+
+                <section>
+                    <img src="images/Fermi_bubbles.jpg" height="300" width="600">
+                    <h4>Fermi Bubbles: Evidence of Past Activity?</h4>
+                    <p><small>Credit: Fermi-LAT team, A. Franckowiak, D. Malyshev</small></p>
+                </section>
+
+
+                <section>
+                    <h4>What is fraction of the time is it "on"?</h4>
+                    <small><ul>
+                        <li class="fragment">Archival XMM-Newton X-ray data of ~100 Milky Way Analogs.</li>
+                        <li class="fragment">7 objects identified as 5&sigma; point sources.</li>
+                        <li class="fragment">However, we can <b>statistically combine lower significance detections</b> to do better.</li>
+                        <li class="fragment">We will do a differential measurement relative to X-ray flux of random nearby pointings.</li>
+                    </ul></small>
+                    <img class="fragment" src="images/mw_agn_duty_cycle_hist.png" height="250" width="400">
+                    <br>
+                    <small><ul>
+                        <li class="fragment"><b>Duty Cycle</b>: what fraction of time is it actively accreting (L<sub>x</sub> > 10^41 erg/s)</li>
+                        <li class="fragment"><b>Average Accretion Luminosity</b>: when it's on, how bright is it?</li>
+                        <!-- <p class="fragment">Significant shift in the mean of the distribution.</p> -->
+                    </ul></small>
+                    <!-- <p class="fragment"><small><b>Andrews</b> et al. (in prep.)</small></p> -->
+                </section>
+
+                <section>
+                    <h3>High(er) Redshift Projects</h3>
+                    <ul>
+                        <li class="fragment">Mass-Metallicity Relation at z~0.8<small>(Zach Lewis, <b>Andrews</b>, Bezanson, et al. in prep.)</small></li>
+                        <li class="fragment">Dust Attenuation Properties at z~0.8<small>(Katie Mack, Zach Lewis, Bezanson, <b>Andrews</b>, et al. in prep.)</small></li>
+                        <li class="fragment">Post-starburst Galaxy Fraction out to z~1<br><small>(David Setton, Dey, Newman, Bezanson, <b>Andrews</b>, et al. in prep.)</small></li>
+                        <!-- <li class="fragment">Interpreting IFU observations in the distant Universe<small>(Lina Florez, Bezanson, et al. in prep.)</small></li> -->
+                    </ul>
+                </section>
+
+
+
+
+
+
+<!-- Deep Learning -->
+				<section>
+					<h2>Deep Learning Photometric Redshifts</h2>
+				</section>
+
+				<section>
+					<h4>Galaxy Redshifts are Essential</h4>
+                    <ul>
+                        <li class="fragment">Cosmology</li>
+                        <li class="fragment">Galaxy evolution</li>
+                        <li class="fragment">Multi-messenger astronomy</li>
+                        <li class="fragment">Dark matter physics</li>
+                    </ul>
+                    <p class="fragment">But spectroscopic redshifts of large samples of faint galaxies are prohibitively resource-intensive.</p>
+				</section>
+
+                <section>
+                    <h3>Photometric Redshifts!</h3>
+				</section>
+
+
+                <section>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <h4>Template-based Methods</h4>
+                        <ul>
+                            <small><li>physics-based SED-fitting</li></small>
+                            <small><li>Pros: best in regimes with little training data (e.g., high-z)</li></small>
+                            <p></p>
+                            <small><li>Cons: limited by our knowledge of galaxy physics (e.g., template mismatch)</li></small>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>Machine Learning Methods</h4>
+                        <ul>
+                            <small><li>data-driven</li></small>
+                            <small><li>Pros: best for regimes with abundant training data and
+                                complete spectroscopic coverage of color-redshift space (e.g., low-z)</li></small>
+                            <p></p>
+                            <small><li>Cons: spectroscopic incompleteness (biased training sets)</li></small>
+                        </ul>
+                    </div>
+                    </div>
+                </section>
+
+
+				<section>
+					<h4>Most photo-z methods use photometry (integrate over galaxy)</h4>
+                    <img src="images/ugriz.png"  height="250" width="1000">
+                    <p><small>Fig. coutesy of Biprateep Dey</small></p>
+				</section>
+
+				<section>
+					<h4>Can we leverage pixel-level information to improve photo-z estimates?</h4>
+                    <ul>
+                        <li class="fragment">Deep learning, especially convolution neural networks (CNNs), have proven to be extremely effective at image processing.</li>
+                        <li class="fragment">At low-z (z < 0.5), photo-z's are well-suited for deep learning.</li>
+                        <!-- <li class="fragment">Deep learning methods have produced the best photo-z estimates on the SDSS data set.</li> -->
+                        <li class="fragment">Can break SED degeneracies with size/morphology, especially at very low redshifts (z < 0.05).</li>
+                    </ul>
+				</section>
+<!--
+                <section>
+                    <h4>Very low redshifts are suprisingly difficult.</h4>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <img src="images/geha2017.png"  height="325" width="400">
+                        <p><small>Geha et al. (2017)</small></p>
+                    </div>
+                    <div class="col">
+                        <small><ul>
+                            <li class="fragment">Very little volume at low-z, so low surface density and hence few spec-z's.</li>
+                            <li class="fragment">Photometric pipelines are not optimized for flux measurements of the bigger galaxies.</li>
+                            <li class="fragment">Brighter galaxies are not representative of the fainter galaxies.</li>
+                            <li class="fragment">For ML, loss will always be dominated by higher redshift objects.</li>
+                            <li class="fragment">z=0 bound</li>
+                            <p></p>
+                            <li class="fragment">But! Very low-z galaxies (especially low mass satellites) are important tests of dark matter properties.</li>
+                        </ul></small>
+                    </div>
+                    </div>
+                </section> -->
+
+
+
+                <section>
+                    <h4>Capsule Networks</h4>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <img src="images/capsules.png" height="325" width="1000">
+                        <p><small>Fig. coutesy of Biprateep Dey</small></p>
+                    </div>
+                    <div class="col">
+                        <small><ul>
+                            <li class="fragment"><b>Capsule</b>: collection of neurons that acts as a vector analog to scalar neurons.</li>
+                            <li class="fragment"><b>Interpretable</b>: final capsule encodes galaxy info</li>
+                            <li class="fragment"><b>Strong Generalizability</b>: Requires less training data than CNNs to learn novel viewpoints.</li>
+                        </ul></small>
+                    </div>
+                    </div>
+                </section>
+
+				<section>
+                    <img src="images/architecture.png"  height="400" width="850">
+					<h4>Capsule Network Architecture</h4>
+                    <!-- <ul>
+                        <small><li>Total loss combines classification, decoder, and redshift regression losses.</li></small>
+                    </ul> -->
+                    <p><small>Total loss combines classification, decoder, and redshift regression losses.<br><br>Fig. coutesy of Biprateep Dey</small></p>
+				</section>
+
+				<section>
+                    <img src="images/disks.png"  height="450" width="250">
+                    <img src="images/spheroids.png"  height="450" width="250">
+					<h4>Reconstructed Images</h4>
+                    <p><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p>
+				</section>
+
+                <section>
+                    <h4>Target Data Sets</h4>
+                    <ol>
+                        <li class="fragment">SDSS: low redshift (z < 0.4) photo-z testbed<br><small>(Dey, <b>Andrews</b>, Newman, et al. 2021)</small></li>
+                        <small><ul>
+                            <li class="fragment">~500,000 galaxies with spec-z and spatially-resolved <i>ugriz</i> images</li>
+                            <li class="fragment">Complete coverage of color-redshift space</li>
+                            <li class="fragment">Galaxy Zoo disk/spheroid classifications</li>
+                        </ul></small>
+                        <p></p>
+                        <li class="fragment">DESI (Dark Energy Spectroscopic Instrument)</li>
+                        <small><ul>
+                            <li class="fragment">1-2 mag deeper than SDSS but only 3 bands (<i>grz</i>) </li>
+                            <li class="fragment">DESI Bright Galaxy Survey: ~20x spectra of SDSS Main Galaxy Sample</li>
+                            <li class="fragment">5 year survey started in 2021</li>
+                        </ul></small>
+                    </ol>
+                </section>
+
+
+                <section>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <h4>SDSS DR12 Photo-z's</h4>
+                        <img src="images/beck_zspec_zphot.png" height="300" width="340">
+                        <p><small>Beck et al. (2016)<br>(Fig. from Pasquet et al. 2019)</small></p>
+                    </div>
+                    <div class="col">
+                        <span class"fragment fade-in">
+                        <h4 class="fragment" data-fragment-index="2">CapsNet Photo-z's</h4>
+                        <img class="fragment" data-fragment-index="2" src="images/sdss_zspec_zphot.png" height="300" width="340">
+                        <small><ul>
+                            <li class="fragment">State-of-the-art <b>outlier fraction</b>.</li>
+                            <li class="fragment"><b>Scatter</b> (&sigma;<sub>NMAD</sub>) is competitive with other deep learning methods.</li>
+                            <li class="fragment"><b>Unbiased</b> with respect to magnitude</li>
+                            <li class="fragment">Excellent performance at very low redshift<br>(z < 0.05)</li>
+                        </ul></small>
+                        <p class="fragment"><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p>
+                    </span>
+                    </div>
+                    </div>
+                </section>
+
+				<section>
+                    <img src="images/umap.png"  height="300" width="800">
+					<h4>Capsules Encode Physical Properties</h4>
+                    <ul>
+                        <li class="fragment">Single redshift sequence (one parameter family)</li>
+                        <li class="fragment">Roughly orthagonal morphology direction</li>
+                    </ul>
+                    <p class="fragment"><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p>
+				</section>
+
+				<section>
+                    <video data-autoplay src="https://biprateep.de/encapZulate-1/viz/tinker_vid.mp4"  height="500" width="900">
+					<!-- <h4>Capsule Perturbations</h4> -->
+                    <!-- <p><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p> -->
+				</section>
+
+<!--
+				<section>
+                    <img src="images/tinker_disk.png"  height="500" width="900">
+					<h4>Capsule Perturbations</h4>
+                    <p><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p>
+				</section>
+-->
+
+				<section>
+                    <!-- <img src="images/desi.png"  height="400" width="400"> -->
+					<h4>Early DESI science with Photo-z's</h4>
+                    <small><ul>
+                        <li class="fragment">Dark matter subhalo abundance (traced by satellite galaxies) is a reliable tracer of dark matter assembly history.</li>
+                        <li class="fragment">Simulations with different formation times (Mao et al. 2015):</li>
+                    </ul></small>
+                    <img class="fragment" src="images/mao2015.png"  height="200" width="600">
+                    <small><ul>
+                        <li class="fragment">But it is difficult to associate faint satellites with their central.</li>
+                        <li class="fragment">Are there any more readily accessible galaxy properties (other than mass) that trace assembly history?</li>
+                    </ul></small>
+				</section>
+
+				<section>
+					<h4>Does disk scale length encode assembly history?</h4>
+                    <ul>
+                        <ul>
+                            <!-- <li class="fragment">Galaxy formation tracers, such as gas-phase metallicity gradients, correlate with disk scale length at fixed stellar mass (Boardman et al. 2021).</li> -->
+                            <li class="fragment"><b>Observationally</b>: the Milky Way has both an abnormally short disk scale length and a quiescent merger history in the last 10 Gyr.</li>
+                            <li class="fragment"><b>Analytic theory</b>: classic disk formation models predict that disk scale length is controlled by the spin parameter (Mo et al. 1998).</li>
+                            <li class="fragment"><b>Simulations</b>: hydrodynamical simulations find that disk scale length is determined by dark matter halo concentration (Jiang et al. 2018).</li>
+                        </ul>
+                    </ul>
+				</section>
+
+                <section>
+                    <h4>Testing Disk Scale Length as a Tracer of Halo Assembly History</h4>
+                    <ul>
+                        <li class="fragment">Measuring disk scale length is straightforward <small>(making it a useful potential tracer of assembly history)</small></li>
+                        <li class="fragment">Bottleneck: need redshifts to associate satellite galaxies to their central galaxy.</li>
+                        <ul>
+                            <small><li class="fragment">Costly with spec-z's! The SAGA Survey obtained ~50,000 spectra to identify 365 satellites around 102 Milky Way-mass galaxies.</li></small>
+                            <!-- <small><li class="fragment">Costly with spec-z's! The SAGA Survey obtained ~20k spectra to identify 127 satellites around 36 Milky Way-mass galaxies (100 in full sample).</li></small> -->
+                            <small><li class="fragment">Can we test this hypothesis statistically using a much larger number of galaxies but less accurate redshifts (i.e., photo-z's)?</li></small>
+                        </ul>
+                        <ul>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Complementary to SAGA Survey</h4>
+                    <ul>
+                        <li class="fragment">SAGA can confidently match satellites and centrals to probe the full system of each central.</li>
+                        <li class="fragment">Our efforts will have 2-3x constraining power but in a statistical sense.</li>
+                        <li class="fragment">Our work will expand the scope from just MW-mass galaxies to a wide mass range of disk galaxies.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Very low-z (z < 0.01) photo-z's are suprisingly difficult</h4>
+                    <style>
+                    .container{
+                        display: flex;
+                    }
+                    .col{
+                        flex: 1;
+                    }
+                    </style>
+                    <div class="container">
+                    <div class="col">
+                        <img src="images/geha2017.png"  height="325" width="400">
+                        <p><small>Geha et al. (2017)</small></p>
+                    </div>
+                    <div class="col">
+                        <small><ul>
+                            <li class="fragment"><b>Training data is sparse and not representative:</b></li>
+                            <ul>
+                                <li class="fragment">Very little volume at low-z.</li>
+                                <li class="fragment">The brighter galaxies (centrals) are not representative of the fainter galaxies (satellites).</li>
+                            </ul>
+                            <li class="fragment"><b>Attenuation bias:</b></li>
+                            <ul>
+                                <li class="fragment">Machine learning methods optimize for the more common higher redshift objects.</li>
+                                <li class="fragment">Asymmetric bound at z = 0.</li>
+                            </ul>
+                            <!-- <li class="fragment">Photometric pipelines are not optimized for flux measurements of extended galaxies (on the sky).</li> -->
+                        </ul></small>
+                    </div>
+                    </div>
+                </section>
+
+				<section>
+					<h4>Exploit Size/Morphology with CapsNets</h4>
+                    <ul>
+                        <li class="fragment">CapsNets: unbiased and accurate even at very low-z and faint magnitudes.</li>
+                        <li class="fragment">Train CapsNet using DESI spec-z's (which go fainter than SDSS spec-z's).</li>
+                        <li class="fragment">Estimate photo-z's of galaxies near bright very low-z central galaxies (w/ SDSS spec-z's)</li>
+                        <li class="fragment"><b>Do central galaxies with shorter disk scale lengths have more satellites?</b></li>
+                    </ul>
+				</section>
+
+                <section>
+                    <h2>Photo-z's for cosmology</h2>
+                </section>
+
+                <section>
+                    <h4>Recalibrating Photo-z PDFs</h4>
+                    <ul>
+                        <li class="fragment">Optimized CANDELS Photo-z's</li>
+                        <small><ul>
+                            <li class="fragment">Kodra, <b>Andrews</b>, Newman, et al. (submitted to ApJ)</li>
+                        </ul></small>
+                        <li class="fragment"><i><b>Local</b></i> Recalibration of Photo-z PDFs Using Feature Space Regression<br>
+                            <small><ul>
+                            <li class="fragment">Dey, Newman, <b>Andrews</b>, et al. (2021)</li>
+                            <li class="fragment">Dey, Zhao, Newman, <b>Andrews</b>, et al. (submitted)</li>
+                            <ul>
+                                <li class="fragment">Could be key for achieving weak lensing photo-z requirements.</li>
+                                <li class="fragment">Preliminary plans for including in the LSST Dark Energy Science Collaboration photo-z pipeline.</li>
+                            </ul>
+                            </ul></small>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- <section>
+                    <img src="images/spec_incompleteness2.png"  height="350" width="800">
+                    <h4>Spectroscopic Incompleteness</h4>
+                    <ul>Use Gaussian Processes to:
+                        <li class="fragment">model incomplete sampling of color space</li>
+                        <li class="fragment">model coverage of color-redshift space</li>
+                        <li class="fragment">reject incorrect spec-z's</li>
+                    </ul>
+                    <p><small>(w/ Ashod Khederlarian, Yoki Hernandez, and Newman)</small></p>
+
+                </section> -->
+
+				<section>
+                    <h2>Conclusions</h2>
+                    <ul>
+                        <li class="fragment">Constructing the Milky Way's UV-to-IR Spectral Energy Distribution with Gaussian Processes</li>
+                        <li class="fragment">Estimating the Milky Way's supermassive black hole activity</li>
+                        <li class="fragment">Achieving state-of-the-art photometric redshifts with deep learning</li>
+                        <li class="fragment">Quantifying the uncertainty on photometric redshifts</li>
+                    </ul>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BONUS SLIDES -->
+
+				<section>
+                    <img src="images/rbf_kernel.png"  height="400" width="800">
+					<h3>Kernel is key</h3>
+                    <p>covariance matrix that constrains the class of functions</p>
+                    <p><small><a href='https://www.cs.toronto.edu/~rgrosse/courses/csc2541_2022/tutorials/tut05.pdf'>Credit: Roger Grosse</a></small></p>
+				</section>
+
+				<section>
+                    <img src="images/gpr_noiseless_data.png"  height="400" width="800">
+					<h3>Noiseless data</h3>
+                    <p><small><a href='https://www.cs.toronto.edu/~rgrosse/courses/csc2541_2022/tutorials/tut05.pdf'>Credit: Roger Grosse</a></small></p>
+				</section>
+
+				<section>
+                    <img src="images/gpr_noisy_data.png"  height="400" width="800">
+					<h3>Noisy data</h3>
+                    <p><small><a href='https://www.cs.toronto.edu/~rgrosse/courses/csc2541_2022/tutorials/tut05.pdf'>Credit: Roger Grosse</a></small></p>
+				</section>
+
+				<section>
+                    <img src="images/kernel_hp.png"  height="500" width="1000">
+                    <p><small><a href='https://www.cs.toronto.edu/~rgrosse/courses/csc2541_2022/tutorials/tut05.pdf'>Credit: Roger Grosse</a></small></p>
+				</section>
+
+
+				<section>
+                    <img src="images/sed_ba.png"  height="400" width="600">
+					<p>GPR predicts SED variations with inclination</p>
+                    <p><small>Fielder, Newman, <b>Andrews</b>, et al. (2021)</small></p>
+				</section>
+
+<!-- K-corrections -->
+				<section>
+					<h2>Data-driven K-corrections</h2>
+				</section>
+
+				<section>
+                    <img src="images/first_fit.png"  height="400" width="500">
+                    <p>Low redshift galaxy SEDs are a one-parameter family
+                        <small>(e.g., Connolly et al. 1995)</small></p>
+                    <p><small>Fielder, <b>Andrews</b>, Newman, et al. (in prep.)</small></p>
+				</section>
+
+				<section>
+					<h4>Data-driven K-corrections</h4>
+					<ul>
+						<li class="fragment">Extrapolate down to z=0.</li>
+						<li class="fragment">Galaxies with similar intrinsic g-r color
+                            at different redshifts fall in similar locii in color-color
+                            space.</li>
+					</ul>
+				</section>
+
+				<section>
+                    <img src="images/wise_hist.png"  height="250" width="1000">
+                    <p>Ta da! K-corrected WISE W4</p>
+                    <p><small>Fielder, <b>Andrews</b>, Newman, et al. (in prep.)</small></p>
+				</section>
+
+
+<!-- Satellites -->
+
+
+                <section>
+                    <img src="images/beck_outlier_image.png"  height="300" width="450">
+                    <p>CapsNets are excellent at estimating redshifts of low mass satellites.</p>
+                </section>
+
+
+<!-- CapsNets at high-z -->
+                <section>
+                    <h3>Will CapsNets photo-z estimation work at high-z?</h3>
+                    <ul>
+                        <li>Community consensus is NO.</li>
+                        <li>Wider redshift range</li>
+                        <li>Larger color space</li>
+                        <li>Spectroscopic incompleteness</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="images/spec_incompleteness2.png"  height="400" width="1000">
+                    <h4>Spectroscopic Incompleteness</h4>
+                </section>
+
+				<section>
+                    <img src="images/perf_vs_data.png"  height="400" width="1000">
+					<h4>Performance with Training Set size</h4>
+                    <p><small>Dey, <b>Andrews</b>, Newman, et al. (2021)</small></p>
+				</section>
+
+                <section>
+                    <h4>CapsNet Photo-z's at High-z</h4>
+                    <ul>
+                        <li>Galaxy morphologies are very different at z > 1.</li>
+                        <li>Might only need one high-resolution space-based image (e.g., Euclid or Roman)
+                            + photometry from other bands (e.g., LSST)</li>
+                        <li>Nearly independent systematics from template-based methods</li>
+                        <li>Provide a veto on catastrophic outliers</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Prototype: CANDELS CapsNet Photo-z's</h4>
+                    <ul>
+                        <li>Only 4 optical/NIR HST bands out to z=3 (to span the 4000 A break)</li>
+                    </ul>
+                </section>
+
+				<section>
+                    <img src="images/candels_zspec_zphot.png"  height="400" width="400">
+					<h4>Success!</h4>
+                    <ul>
+                        <li class="fragment">...or at least not totally infeasible.</li>
+                        <li class="fragment">Can also leverage many more photometric bands.</li>
+                    </ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
