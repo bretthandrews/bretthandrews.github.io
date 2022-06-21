@@ -16,6 +16,12 @@ Students
 
 Graduate
 --------
+* **Yoquelbin Salcedo Hernandez**
+    * University of Pittsburgh (2022 - present)
+    * DESI-2 Emission Line Galaxy Target Selection
+* **Ashod Khederlarian**
+    * University of Pittsburgh (2022 - present)
+    * Assigning Emission Lines to Simulated Galaxies from the Stellar Continuum
 * **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Deep Capsule Networks
