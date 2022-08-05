@@ -11,7 +11,8 @@ redirect_from:
 
 Academic Appointments
 ======
-* **Research Assistant Professor**, Department of Physics and Astronomy, University of Pittsburgh (2017 - present)
+* **Research Associate Professor**, Department of Physics and Astronomy, University of Pittsburgh (2022 - present)
+* **Research Assistant Professor**, Department of Physics and Astronomy, University of Pittsburgh (2017 - 2022)
 * **Postdoctoral Associate**, Department of Physics and Astronomy, University of Pittsburgh (2014 - 2017)
 
 Education
@@ -20,14 +21,4 @@ Education
 * **M.S.** in Astronomy, The Ohio State University (2011)
 * **B.S.** in Astronomy & Physics, Yale University (2008)
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+[Full CV](https://bretthandrews.github.io/files/cv/cv_andrews.pdf) Updated: 2022-08-05
