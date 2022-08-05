@@ -11,10 +11,8 @@ author_profile: true
 I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
 
 
-Students
-========
-Graduate
---------
+## Students
+###Graduate
 * **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)**
     * University of Pittsburgh (2022 - present)
     * DESI-2 Emission Line Galaxy Target Selection
@@ -26,10 +24,8 @@ Graduate
     * Estimating Photometric Redshifts with Deep Capsule Networks
 
 
-Former Students
-======
-Graduate
---------
+## Former Students
+### Graduate
 * **[Troy Raen](https://troyraen.github.io/)**
     * University of Pittsburgh (2019 - 2022)
     * Transients in the Event Streams of Large Astronomical Surveys
@@ -43,8 +39,7 @@ Graduate
     * [Dimensionality Reduction of Astronomical Spectroscopic Data Using Autoencoders](https://www.ml.cmu.edu/research/dap-papers/F17/dap-ma-quanbin.pdf)
     * _Next Position_: Software Engineer at Facebook
 
-Undergraduate
--------------
+### Undergraduate
 * **Katie Mack**
     * University of Pittsburgh (2021 - 2022)
     * The Fundamental Metallicity Relation at Intermediate Redshifts
@@ -57,8 +52,7 @@ Undergraduate
     * SNIa hosts in MaNGA
     * _Next Position_: Geophysics Ph.D. Student at Boston College
 
-High School
------------
+### High School
 * **Mariah Jones**
     * Baldwin High School (2020 - present)
     * The Mass-Metallicity Relation at Intermediate Redshifts
