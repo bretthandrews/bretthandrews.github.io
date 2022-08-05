@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research assistant professor in the [Physics and Astronomy](https://www.physicsandastronomy.pitt.edu/) department at the University of Pittsburgh. I earned my Ph.D. in Astronomy from [The Ohio State University](https://astronomy.osu.edu/) and my B.S. in Physics and Astronomy from [Yale University](https://astronomy.yale.edu/).
+I'm a research associate professor in the [Physics and Astronomy](https://www.physicsandastronomy.pitt.edu/) department at the University of Pittsburgh. I earned my Ph.D. in Astronomy from [The Ohio State University](https://astronomy.osu.edu/) and my B.S. in Physics and Astronomy from [Yale University](https://astronomy.yale.edu/).
 
 My current research focuses on:
-- estimating photometric redshifts of galaxies using deep capsule networks (w/ [Biprateep Dey](https://biprateep.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+- estimating photometric redshifts of galaxies using deep capsule networks and developing better uncertainty quantification methods (w/ [Biprateep Dey](https://biprateep.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+- characterizing the relationship between galaxy photometry, emission lines, and photometric redshifts (w/ Ashod Khederlarian, Yoki Salcedo, and [Jeff Newman](https://janewman-pitt-edu.github.io/))
 - constraining hard-to-determine properties of our own Milky Way (e.g., the UV-to-IR spectral energy distribution) by using statistical methods, such as Gaussian Process Regression, to leverage large samples of similar galaxy (w/ [Cat Fielder](https://cfielder.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
-- determining the evolution of the high mass end of the mass-metallicity relation from z ~ 0.8 to today (w/ [Zach Lewis](https://zachjlewis.github.io/), Mariah Jones, Katie Mack, and [Rachel Bezanson](https://rachelbezanson.github.io/)).
+- measuring the mass-metallicity relation for massive galaxies at z ~ 0.8 with LEGA-C (w/ [Zach Lewis](https://zachjlewis.github.io/), Mariah Jones, Katie Mack, and [Rachel Bezanson](https://rachelbezanson.github.io/)).
 
 I am a core developer of [Marvin](https://dr16.sdss.org/marvin/), a data access, exploration, analysis, and visualization toolkit for the [SDSS-IV MaNGA](https://www.sdss.org/surveys/manga/) survey (w/ Brian Cherinka, Jose Sanchez-Gallego, and Joel Brownstein).
 
