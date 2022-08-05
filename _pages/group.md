@@ -12,7 +12,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 
 
 ## Students
-###Graduate
+### Graduate
 * **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)**
     * University of Pittsburgh (2022 - present)
     * DESI-2 Emission Line Galaxy Target Selection
