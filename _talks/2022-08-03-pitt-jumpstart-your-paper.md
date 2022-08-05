@@ -1,5 +1,5 @@
 ---
-title: "AstroCoffee"
+title: "Jumpstart Your Paper"
 collection: talks
 type: "Tutorial"
 permalink: /talks/2022-08-03-pitt-jumpstart-your-paper
