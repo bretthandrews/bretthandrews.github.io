@@ -10,4 +10,4 @@ location: "Pittsburgh, PA, USA"
 
 [Slides](https://bretthandrews.github.io/files/talks/2022-08-03-pitt-jumpstart-your-paper.pdf)
 
-Tips for getting started writing your first research paper.
+Tips for getting started writing your first research paper (w/ Rachel Bezanson).
