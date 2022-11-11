@@ -188,6 +188,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  bootcamp:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -243,6 +246,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  #_bootcamp
+  - scope:
+      path: ""
+      type: bootcamp
+    values:
+      layout: single
       author_profile: true
       share: true
 
