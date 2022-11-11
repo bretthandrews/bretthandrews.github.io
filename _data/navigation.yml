@@ -6,6 +6,9 @@ main:
   - title: "Talks"
     url: /talks/
 
+  - title: "Python Boot Camp"
+    url: /bootcamp/
+
   - title: "Code"
     url: /code/
 
