@@ -14,14 +14,17 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ## Students
 ### Graduate
 <!-- * ![Biprateep Dey](/images/Biprateep_Dey.jpg){: height="25" } -->
-<img src="/images/Biprateep_Dey.jpg" width="200" height="100">w200
-
+<img src="/images/Biprateep_Dey.jpg" height="100">h100
 * **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Deep Capsule Networks
+
+<img src="/images/Yoki_Salcedo.jpg" height="100">
 * **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)**
     * University of Pittsburgh (2022 - present)
     * DESI-2 Emission Line Galaxy Target Selection
+
+<img src="/images/Ashod_Khederlarian.jpg" height="100">
 * **[Ashod Khederlarian](https://ashodkh.github.io)**
     * University of Pittsburgh (2022 - present)
     * Assigning Emission Lines to Simulated Galaxies from the Stellar Continuum
