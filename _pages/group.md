@@ -32,7 +32,12 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="100px"} ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="100px"}
 **[Biprateep Dey](https://biprateep.github.io/)** **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)**
 
-| ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="100px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="100px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:height="20px" width="100px"} |
+| ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} |
+|:--:|:--:|:--:|
+| **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** |
+
+
+| ![Biprateep Dey](/images/Biprateep_Dey.jpg) | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg) | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg) |
 |:--:|:--:|:--:|
 | **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** |
 
