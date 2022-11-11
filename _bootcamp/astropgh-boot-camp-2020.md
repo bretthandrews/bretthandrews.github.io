@@ -1,7 +1,7 @@
 ---
 title: "AstroPGH Boot Camp 2020"
-collection: code
-permalink: /code/astropgh-boot-camp-2020
+collection: bootcamp
+permalink: /bootcamp/astropgh-boot-camp-2020
 excerpt: 'Research boot camp for undergrads and early PhD students'
 date: 2020-05-18
 repourl: 'https://github.com/astropgh/astropgh-boot-camp-2020'

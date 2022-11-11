@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Code"
-permalink: /code/
+title: "Python Boot Camp"
+permalink: /bootcamp/
 author_profile: true
 ---
 
@@ -9,5 +9,5 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.code reversed %}
-  {% include archive-single-code.html %}
+  {% include archive-single-bootcamp.html %}
 {% endfor %}

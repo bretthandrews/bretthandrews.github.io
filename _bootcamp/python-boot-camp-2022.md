@@ -1,7 +1,7 @@
 ---
 title: "Python Boot Camp 2022"
-collection: code
-permalink: /code/python-boot-camp-2022
+collection: bootcamp
+permalink: /bootcamp/python-boot-camp-2022
 excerpt: 'Python boot camp for undergrads and early PhD students'
 date: 2022-05-23
 repourl: 'https://github.com/astropgh/python-boot-camp-2022'
