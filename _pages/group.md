@@ -13,8 +13,8 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 
 ## Students
 ### Graduate
-![Biprateep Dey](/images/Biprateep_Dey.jpg])
-228
+![Biprateep Dey](/images/Biprateep_Dey.jpg)
+232
 * **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - present)
     * Estimating Photometric Redshifts with Deep Capsule Networks
