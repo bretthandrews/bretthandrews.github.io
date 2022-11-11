@@ -24,7 +24,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
     * University of Pittsburgh (2022 - present)
     * DESI-2 Emission Line Galaxy Target Selection
 
-<img src="/images/Ashod_Khederlarian.jpg" height="10">
+![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:height="20px" width="400px"}
 * **[Ashod Khederlarian](https://ashodkh.github.io)**
     * University of Pittsburgh (2022 - present)
     * Assigning Emission Lines to Simulated Galaxies from the Stellar Continuum
