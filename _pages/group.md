@@ -31,7 +31,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 | ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} |
 |:--:|:--:|:--:|
 | **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** |
-| Estimating Photometric Redshifts with Deep Capsule Networks | DESI-2 Emission Line Galaxy Target Selection | Assigning Emission Lines to Simulated Galaxies from the Stellar Continuum |
+<!-- | Estimating Photometric Redshifts with Deep Capsule Networks | DESI-2 Emission Line Galaxy Target Selection | Assigning Emission Lines to Simulated Galaxies from the Stellar Continuum | -->
 
 
 
