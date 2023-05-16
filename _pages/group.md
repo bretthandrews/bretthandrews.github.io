@@ -40,7 +40,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
     * The Fundamental Metallicity Relation at Intermediate Redshifts
 * **[Zach Lewis](https://zachjlewis.github.io/)**
     * University of Pittsburgh (2019 - 2022)
-    * The Mass-Metallicity Relation at Intermediate Redshifts
+    * The Gas-Phase Mass-Metallicity Relation for Massive Galaxies at z∼0.7 with the LEGA-C Survey
     * _Next Position_: Astronomy Ph.D. Student at the University of Wisconsin
 * **Ian Cooper**
     * University of Pittsburgh (2016)
