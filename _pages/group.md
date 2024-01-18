@@ -15,7 +15,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ### Graduate
 
 | ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} |
-|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 | **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** |
 
 
