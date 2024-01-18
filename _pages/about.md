@@ -11,8 +11,8 @@ redirect_from:
 I'm a research associate professor in the [Physics and Astronomy](https://www.physicsandastronomy.pitt.edu/) department at the University of Pittsburgh. I earned my Ph.D. in Astronomy from [The Ohio State University](https://astronomy.osu.edu/) and my B.S. in Physics and Astronomy from [Yale University](https://astronomy.yale.edu/).
 
 My current research focuses on:
-- estimating photometric redshifts of galaxies using deep capsule networks and developing better uncertainty quantification methods (w/ [Biprateep Dey](https://biprateep.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
-- characterizing the relationship between galaxy photometry, emission lines, and photometric redshifts (w/ [Ashod Khederlarian](https://ashodkh.github.io), [Yoki Salcedo](https://yoquelbinsalcedo.github.io), and [Jeff Newman](https://janewman-pitt-edu.github.io/))
+- estimating photometric redshifts of galaxies using deep capsule networks and developing better uncertainty quantification methods (w/ [Biprateep Dey](https://biprateep.github.io/), [Ashod Khederlarian](https://ashodkh.github.io), Emma Moran, and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+- characterizing the relationship between galaxy photometry, emission lines, and photometric redshifts (w/ [Ashod Khederlarian](https://ashodkh.github.io), [Yoki Salcedo](https://yoquelbinsalcedo.github.io), [Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead), and [Jeff Newman](https://janewman-pitt-edu.github.io/))
 - constraining hard-to-determine properties of our own Milky Way (e.g., the UV-to-IR spectral energy distribution) by using statistical methods, such as Gaussian Process Regression, to leverage large samples of similar galaxy (w/ [Cat Fielder](https://cfielder.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
 - measuring the mass-metallicity relation for massive galaxies at z ~ 0.8 with LEGA-C (w/ [Zach Lewis](https://zachjlewis.github.io/), Mariah Jones, Katie Mack, and [Rachel Bezanson](https://rachelbezanson.github.io/)).
 

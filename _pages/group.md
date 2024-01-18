@@ -14,9 +14,9 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ## Students
 ### Graduate
 
-| ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} |
+| ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} |
 |:--:|:--:|:--:|
-| **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** |
+| **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** |
 
 
 ## Former Students
@@ -35,6 +35,9 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
     * _Next Position_: Software Engineer at Facebook
 
 ### Undergraduate
+* **Emma Moran**
+    * University of Pittsburgh (2023 - present)
+    * Improving the Physical Interpretation of How Deep Neural Networks Parse Galaxy Images
 * **Katie Mack**
     * University of Pittsburgh (2021 - 2022)
     * The Fundamental Metallicity Relation at Intermediate Redshifts

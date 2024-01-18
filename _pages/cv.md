@@ -21,4 +21,4 @@ Education
 * **M.S.** in Astronomy, The Ohio State University (2011)
 * **B.S.** in Astronomy & Physics, Yale University (2008)
 
-[Full CV](https://bretthandrews.github.io/files/cv/cv_andrews.pdf) _Updated: 2023-05-17_
+[Full CV](https://bretthandrews.github.io/files/cv/cv_andrews.pdf) _Updated: 2024-01-18_
