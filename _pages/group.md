@@ -56,7 +56,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 
 ### High School
 * **Mariah Jones**
-    * Baldwin High School (2020 - present)
+    * Baldwin High School (2020 - 2021)
     * The Mass-Metallicity Relation at Intermediate Redshifts
     * _Press_:
         * [Trib Live](https://triblive.com/local/south-hills/baldwin-senior-collaborates-on-astrophysics-and-metallicity-research-at-pitt/) 2020-12-02 "Baldwin senior collaborates on astrophysics and metallicity research at Pitt"
