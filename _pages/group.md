@@ -14,17 +14,17 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ## Students
 ### Graduate
 
-| ![Biprateep Dey](/images/Biprateep_Dey.jpg){:width="200px"} | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} |
+| ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} |
 |:--:|:--:|:--:|:--:|
-| **[Biprateep Dey](https://biprateep.github.io/)** | **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** |
+| **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** |
 
 
 ## Former Students
 ### Graduate
-[//]: # (**[Biprateep Dey](https://biprateep.github.io/)**)
-[//]: # (* University of Pittsburgh (2018 - 2024))
-[//]: # (* Cosmic Cartography: Photometric Redshifts for Next-Generation Sky Surveys)
-[//]: # (* _Next Position_: Schmidt AI for Science Fellowship at University of Toronto + CITA Fellowship + Dunlap Institute Fellowship)
+* **[Biprateep Dey](https://biprateep.github.io/)**
+    * University of Pittsburgh (2018 - 2024)
+    * Cosmic Cartography: Photometric Redshifts for Next-Generation Sky Surveys
+    * _Next Position_: Schmidt AI for Science Fellowship at University of Toronto + CITA Fellowship + Dunlap Institute Fellowship
 * **[Troy Raen](https://troyraen.github.io/)**
     * University of Pittsburgh (2019 - 2022)
     * Transients in the Event Streams of Large Astronomical Surveys
@@ -41,7 +41,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 ### Undergraduate
 * **Emma Moran**
     * University of Pittsburgh (2023 - present)
-    * Improving the Physical Interpretation of How Deep Neural Networks Parse Galaxy Images
+    * Understanding Deep Learning Photometric Redshift Performance Across Color Space
 * **Katie Mack**
     * University of Pittsburgh (2021 - 2022)
     * The Fundamental Metallicity Relation at Intermediate Redshifts
