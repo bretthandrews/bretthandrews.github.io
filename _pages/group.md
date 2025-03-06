@@ -24,7 +24,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 * **[Biprateep Dey](https://biprateep.github.io/)**
     * University of Pittsburgh (2018 - 2024)
     * Cosmic Cartography: Photometric Redshifts for Next-Generation Sky Surveys
-    * _Next Position_: Schmidt AI for Science Fellowship at University of Toronto + CITA Fellowship + Dunlap Institute Fellowship
+    * _Next Position_: Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship at University of Toronto + CITA Postdoctoral Fellowship + Dunlap Postdoctoral Fellowship
 * **[Troy Raen](https://troyraen.github.io/)**
     * University of Pittsburgh (2019 - 2022)
     * Transients in the Event Streams of Large Astronomical Surveys
