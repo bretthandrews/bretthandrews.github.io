@@ -8,14 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-I'm a research associate professor in the [Physics and Astronomy](https://www.physicsandastronomy.pitt.edu/) department at the University of Pittsburgh. I earned my Ph.D. in Astronomy from [The Ohio State University](https://astronomy.osu.edu/) and my B.S. in Physics and Astronomy from [Yale University](https://astronomy.yale.edu/).
+I'm a research associate professor in the [Physics and Astronomy](https://www.physicsandastronomy.pitt.edu/) department at the University of Pittsburgh.
 
-My current research focuses on:
-- estimating photometric redshifts of galaxies using deep capsule networks and developing better uncertainty quantification methods (w/ [Biprateep Dey](https://biprateep.github.io/), [Ashod Khederlarian](https://ashodkh.github.io), Emma Moran, and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
-- characterizing the relationship between galaxy photometry, emission lines, and photometric redshifts (w/ [Ashod Khederlarian](https://ashodkh.github.io), [Yoki Salcedo](https://yoquelbinsalcedo.github.io), [Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead), and [Jeff Newman](https://janewman-pitt-edu.github.io/))
-- constraining hard-to-determine properties of our own Milky Way (e.g., the UV-to-IR spectral energy distribution) by using statistical methods, such as Gaussian Process Regression, to leverage large samples of similar galaxy (w/ [Cat Fielder](https://cfielder.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
-- measuring the mass-metallicity relation for massive galaxies at z ~ 0.8 with LEGA-C (w/ [Zach Lewis](https://zachjlewis.github.io/), Mariah Jones, Katie Mack, and [Rachel Bezanson](https://rachelbezanson.github.io/)).
+Photometric redshifts are crucial for cosmology, galaxy evolution, and transient studies from massive imaging surveys such as the Nancy Grace Roman Space Telescope and Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST). My research focuses on developing machine learning and statistical techniques to improve photo-z's:
 
-I am a core developer of [Marvin](https://dr16.sdss.org/marvin/), a data access, exploration, analysis, and visualization toolkit for the [SDSS-IV MaNGA](https://www.sdss.org/surveys/manga/) survey (w/ Brian Cherinka, Jose Sanchez-Gallego, and Joel Brownstein).
+- deep learning photo-z models (w/ [Biprateep Dey](https://biprateep.github.io/), [Ashod Khederlarian](https://ashodkh.github.io), Emma Moran, and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
 
-My Ph.D. research explored the growth and evolution of galaxies as traced by changes in the abundance of chemical elements in their gas (w/ [Paul Martini](https://astronomy.osu.edu/people/martini.10)) and stars (w/ [David Weinberg](https://astronomy.osu.edu/people/weinberg.21) and [Jennifer Johnson](https://astronomy.osu.edu/people/johnson.3064)). I developed a code called [flexCE](https://github.com/bretthandrews/flexCE) to make theoretical predictions for the chemical evolution of a galaxy over its lifetime.
+- uncertainty quantification methods to produce more accurate photo-z probability distributions (w/ [Biprateep Dey](https://biprateep.github.io/), [Ann Lee](https://www.stat.cmu.edu/~annlee/), [Rafael Izbicki](https://rafaelizbicki.com/), and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+
+- constructing spectroscopic datasets to train and calibrate photo-z methods (w/ [Biprateep Dey](https://biprateep.github.io/) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+
+- characterizing how spectroscopic training sets are biased relative to photometric samples (w/ [Ashod Khederlarian](https://ashodkh.github.io), Marcos Tamargo-Arizmendi, and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+
+- mitigating biases in spectroscopic training sets (w/ [Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
+
+- calibrating photo-z distributions using galaxy cross-correlation methods ([Yoki Salcedo](https://yoquelbinsalcedo.github.io) and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
+
+- designing an emission line galaxy sample for baryon acoustic oscillations with DESI-2 ([Yoki Salcedo](https://yoquelbinsalcedo.github.io) and [Jeff Newman](https://janewman-pitt-edu.github.io/)).
+
+
+Collaborations: using data from (or in anticipation of) the Nancy Grace Roman Space Telescope, Vera C. Rubin Observatory LSST, and DESI

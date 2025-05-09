@@ -8,15 +8,15 @@ author_profile: true
 {% include base_path %}
 
 
-I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) and [Rachel Bezanson](https://rachelbezanson.github.io/) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
+I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/), [Tianqing (TQ) Zhang](https://ztq1996.github.io/), and [Rachel Bezanson](https://rachelbezanson.github.io/) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
 
 
 ## Students
 ### Graduate
 
-| ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} |
+| ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} | |
 |:--:|:--:|:--:|:--:|
-| **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** |
+| **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** | Marcos Tamargo |
 
 
 ## Former Students
@@ -48,7 +48,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/) a
 * **[Zach Lewis](https://zachjlewis.github.io/)**
     * University of Pittsburgh (2019 - 2022)
     * The Gas-Phase Mass-Metallicity Relation for Massive Galaxies at z∼0.7 with the LEGA-C Survey
-    * _Next Position_: Astronomy Ph.D. Student at the University of Wisconsin
+    * _Next Position_: Astronomy Ph.D. Student and NSF GRFP Fellow at the University of Wisconsin
 * **Ian Cooper**
     * University of Pittsburgh (2016)
     * SNIa hosts in MaNGA
