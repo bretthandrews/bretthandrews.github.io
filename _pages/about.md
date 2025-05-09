@@ -22,9 +22,13 @@ Photometric redshifts are crucial for cosmology, galaxy evolution, and transient
 
 - mitigating biases in spectroscopic training sets (w/ [Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead) and [Jeff Newman](https://janewman-pitt-edu.github.io/)),
 
-- calibrating photo-z distributions using galaxy cross-correlation methods ([Yoki Salcedo](https://yoquelbinsalcedo.github.io) and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
+- calibrating photo-z distributions using galaxy cross-correlation methods ([Yoki Salcedo](https://yoquelbinsalcedo.github.io), [Tianqing (TQ) Zhang](https://ztq1996.github.io/), and [Jeff Newman](https://janewman-pitt-edu.github.io/)), and
 
 - designing an emission line galaxy sample for baryon acoustic oscillations with DESI-2 ([Yoki Salcedo](https://yoquelbinsalcedo.github.io) and [Jeff Newman](https://janewman-pitt-edu.github.io/)).
 
 
-Collaborations: using data from (or in anticipation of) the Nancy Grace Roman Space Telescope, Vera C. Rubin Observatory LSST, and DESI
+Collaborations: 
+- Roman HLIS (High Latitude Imaging Survey) Cosmology PIT (Project Infrastructure Team)
+- Roman Science Collaboration
+- LSST DESC (Dark Energy Science Collaboration)
+- DESI (Dark Energy Spectroscopic Instrument)
