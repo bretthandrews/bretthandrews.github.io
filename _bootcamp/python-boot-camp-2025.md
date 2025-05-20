@@ -3,7 +3,7 @@ title: "Python Boot Camp 2025"
 collection: bootcamp
 permalink: /bootcamp/python-boot-camp-2025
 excerpt: 'Python boot camp for undergrads and early PhD students'
-date: 2024-05-19
+date: 2025-05-19
 repourl: 'https://github.com/astropgh/python-boot-camp-2025'
 docsurl: 'https://astropgh.github.io/python-boot-camp-2025/'
 ---
