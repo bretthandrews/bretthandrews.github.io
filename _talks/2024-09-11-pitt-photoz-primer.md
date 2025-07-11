@@ -1,13 +1,13 @@
 ---
-title: "Jumpstart Your Paper"
+title: "Photo-z Primer"
 collection: talks
 type: "Tutorial"
-permalink: /talks/2022-08-03-pitt-jumpstart-your-paper
+permalink: /talks/2024-09-11-pitt-photoz-primer
 venue: "University of Pittsburgh"
-date: 2022-08-03
+date: 2024-09-11
 location: "Pittsburgh, PA, USA"
 ---
 
-[Slides](https://bretthandrews.github.io/files/talks/2022-08-03-pitt-jumpstart-your-paper.pdf)
+[Slides](https://bretthandrews.github.io/files/talks/2024-09-11-pitt-photoz-primer.pdf)
 
-Tips for getting started writing your first research paper (w/ Rachel Bezanson).
+Primer on photometric redshifts for Galaxy Group Meeting.

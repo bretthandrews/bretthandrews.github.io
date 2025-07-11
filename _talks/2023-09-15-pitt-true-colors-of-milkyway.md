@@ -1,5 +1,5 @@
 ---
-title: "Photometric Redshifts for Next Generation Imaging Surveys"
+title: "The True Colors of the Milky Way"
 collection: talks
 type: "Public Talk"
 permalink: /talks/2023-09-15-pitt-true-colors-of-milkyway
