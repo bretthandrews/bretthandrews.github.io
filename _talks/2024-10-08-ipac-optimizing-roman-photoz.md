@@ -2,7 +2,7 @@
 title: "Optimizing Roman Photometric Redshifts"
 collection: talks
 type: "Talk"
-permalink: /talks/2024-10-08-optimizing-roman-photoz
+permalink: /talks/2024-10-08-ipac-optimizing-roman-photoz
 venue: "IPAC"
 date: 2024-10-08
 location: "Pasadena, CA, USA"
