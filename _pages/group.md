@@ -16,7 +16,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/), 
 
 | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} | |
 |:--:|:--:|:--:|:--:|
-| **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://www.physicsandastronomy.pitt.edu/people/finian-ashmead)** | Marcos Tamargo |
+| **[Yoquelbin Salcedo](https://yoquelbinsalcedo.github.io)** | **[Ashod Khederlarian](https://ashodkh.github.io)** | **[Finian Ashmead](https://finianashmead.github.io)** | Marcos Tamargo-Arizmendi |
 
 
 ## Former Students
@@ -40,8 +40,8 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/), 
 
 ### Undergraduate
 * **Emma Moran**
-    * University of Pittsburgh (2023 - present)
-    * Understanding Deep Learning Photometric Redshift Performance Across Color Space
+    * University of Pittsburgh (2023 - 2025)
+    * Deep Learning Improves Photometric Redshifts in All Regions of Color Space
 * **Katie Mack**
     * University of Pittsburgh (2021 - 2022)
     * The Fundamental Metallicity Relation at Intermediate Redshifts
