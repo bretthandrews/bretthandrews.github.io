@@ -11,7 +11,7 @@ author_profile: true
 I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/), [Tianqing (TQ) Zhang](https://ztq1996.github.io/), and [Rachel Bezanson](https://rachelbezanson.github.io/) on applying statistics and machine learning methods to photometric redshift estimation and galaxy evolution studies.
 
 
-## Students
+## Current Students
 ### Graduate
 
 | ![Yoki Salcedo](/images/Yoki_Salcedo.jpg){:width="200px"} | ![Ashod Khederlarian](/images/Ashod_Khederlarian.jpg){:width="200px"} | ![Finian Ashmead](/images/Finian_Ashmead.jpg){:width="200px"} | |
