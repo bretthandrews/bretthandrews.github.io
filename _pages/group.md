@@ -42,6 +42,7 @@ I collaborate closely with [Jeff Newman](https://janewman-pitt-edu.github.io/), 
 * **Emma Moran**
     * University of Pittsburgh (2023 - 2025)
     * Deep Learning Improves Photometric Redshifts in All Regions of Color Space
+    * _Next Position_: Astronomy Ph.D. Student and NSF GRFP Fellow at the Ohio State University
 * **Katie Mack**
     * University of Pittsburgh (2021 - 2022)
     * The Fundamental Metallicity Relation at Intermediate Redshifts
